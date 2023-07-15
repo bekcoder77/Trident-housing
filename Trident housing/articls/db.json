@@ -1,0 +1,58 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "About us",
+      "img": "./assets/c1.png",
+      "text": "Garden Room",
+      "body": "Trident Modular Housing produce and assemble modular houses that are very high quality and they can be used as temporary as well as permanent residence.",
+      "image": "https://www.insidenetwork.com/wp-content/uploads/2021/11/huis-voor-blog-5-ways-to-renovate-house-scaled.jpg",
+      "info": "An enterprise combining the joint expertise of a UK-based chartered architectural practice and an experienced Ukrainian manufacturer"
+    },
+    {
+      "id": "2",
+      "title": "  Golden House",
+      "img": "assets/c2.png",
+      "text": "Garden Room",
+      "body": "Trident Modular Housing produce and assemble modular houses that are very high quality and they can be used as temporary as well as permanent residence.",
+      "image": "https://joshua.politicaltruthusa.com/wp-content/uploads/2018/01/Great-Victorian-House-with-Wrap-Around-Porch.jpg",
+      "info": "An enterprise combining the joint expertise of a UK-based chartered architectural practice and an experienced Ukrainian manufacturer"
+    },
+    {
+      "id": "3",
+      "title": " Art Salon",
+      "img": "assets/c3.png",
+      "text": "Garden Room",
+      "body": "Trident Modular Housing produce and assemble modular houses that are very high quality and they can be used as temporary as well as permanent residence.",
+      "image": "https://zav-club.com/wp-content/uploads/2019/06/pictures-house-001.jpg",
+      "info": "An enterprise combining the joint expertise of a UK-based chartered architectural practice and an experienced Ukrainian manufacturer"
+    },
+    {
+      "id": "4",
+      "title": " Commercial Workspace",
+      "img": "assets/c4.png",
+      "text": "Garden Room",
+      "body": "Trident Modular Housing produce and assemble modular houses that are very high quality and they can be used as temporary as well as permanent residence.",
+      "image": "https://i.pinimg.com/originals/62/4b/7e/624b7e0b39f478ce5e9bdf3c54d9c3f1.jpg",
+      "info": "An enterprise combining the joint expertise of a UK-based chartered architectural practice and an experienced Ukrainian manufacturer"
+    },
+    {
+      "id": "5",
+      "title": " Start House",
+      "img": "assets/c5.png",
+      "text": "Garden Room",
+      "body": "Trident Modular Housing produce and assemble modular houses that are very high quality and they can be used as temporary as well as permanent residence.",
+      "image": "https://i.pinimg.com/originals/93/74/cb/9374cbf8c0e185dcad57dc0cf3097b5c.jpg",
+      "info": "An enterprise combining the joint expertise of a UK-based chartered architectural practice and an experienced Ukrainian manufacturer"
+    },
+    {
+      "id": "6",
+      "title": "  Forest House",
+      "img": "assets/c6.png",
+      "text": "Garden Room",
+      "body": "Trident Modular Housing produce and assemble modular houses that are very high quality and they can be used as temporary as well as permanent residence.",
+      "image": "https://i.pinimg.com/originals/41/7e/7d/417e7d406eafcabda2050b4fd7159ea9.jpg",
+      "info": "An enterprise combining the joint expertise of a UK-based chartered architectural practice and an experienced Ukrainian manufacturer"
+    }
+  ]
+}

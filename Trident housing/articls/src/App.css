@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import "react-alice-carousel/lib/alice-carousel.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+  }
+  .order{
+    box-shadow: 1px 2px 5px 5px rgb(180, 178, 178);
+  }
+  .header{
+    background: url(../public/assets/bg.png);
+    background-size: cover;
+    height: 100vh;
+    margin-top: -70px;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+  } 
+  
