@@ -18,12 +18,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/articles" element={<Articles/>} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/contact" element={<Contact />} />
           <Route path="/article/:id" element={<Article />} />
-          {/* <Route path="*" element={<PageNotFound/>}/> */}
+          <Route path="*" element={<PageNotFound/>}/>
           {/* <Route path="*" element={<Navigate to = "<PageNotFound/>"/>}/> */}
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </BrowserRouter>
     </div>
   );

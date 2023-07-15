@@ -162,35 +162,35 @@ function Home() {
           >
             <SwiperSlide>
               {" "}
-              <img src="./assets/c1.png" alt="" />{" "}
+              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=0905cb9d949ef7978eb5cecb04dc6449da1acc97-9229279-images-thumbs&n=13" alt="" />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img src="./assets/c1.png" alt="" />{" "}
+              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=20a4293a945b430f0062bc8b9933e25c21ef5637-8496941-images-thumbs&n=13" alt="" />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img src="./assets/c1.png" alt="" />{" "}
+              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=ac3460d18c6516e1b0fe1a0450f36d205002ac6c-9242214-images-thumbs&n=13" alt="" />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img src="./assets/c1.png" alt="" />{" "}
+              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=e7c90ddd0d17df224f15d704c9578cec5ddd216f-9104160-images-thumbs&n=13" alt="" />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img src="./assets/c1.png" alt="" />{" "}
+              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=ad8082a284704e15a3bf69b048af63509e10457b-9218991-images-thumbs&n=13" alt="" />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img src="./assets/c1.png" alt="" />{" "}
+              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=a451ad9522da8c2633bae254342788979cea19ec-6493270-images-thumbs&n=13" alt="" />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img src="./assets/c1.png" alt="" />{" "}
+              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=01c6323c4c749f1994be78e7debfe798f9b758da-6254930-images-thumbs&n=13" alt="" />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img src="./assets/c1.png" alt="" />{" "}
+              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=d9ab567b77a13ba1364f664495b0742fd6e4e293-9029247-images-thumbs&n=13" alt="" />{" "}
             </SwiperSlide>
           </Swiper>
         </div>

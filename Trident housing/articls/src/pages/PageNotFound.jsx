@@ -2,12 +2,14 @@ import { NavLink } from 'react-router-dom'
 
 function PageNotFound() {
   return (
-    <div className='pageNotFound-container'>
-        <h1>👇PageNotFound👇</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias rem corporis veritatis sint, velit at nobis eum consectetur, autem odio numquam tempora vel sunt, possimus atque non amet libero! Doloribus voluptates porro unde non soluta. Quibusdam voluptas laborum optio ducimus, a minus debitis amet sit accusamus, ad reiciendis, quos quis.</p>
-        <NavLink to="/">
+    <div className='pageNotFound-container text-center py-6 m-auto'>
+        <h1 className='text-5xl mb-10 '>👇PageNotFound👇</h1>
+     <img className='w-[600px] h-[400px] object-cover flex justify-center m-auto' src="https://cdn.lifehacker.ru/wp-content/uploads/2018/05/404-5_1527484247-e1527495397348.jpg" alt="" />
+      <p className='flex justify-center py-10'>
+      <NavLink   to="/">
             Home Page
         </NavLink>
+      </p>
     </div>
   )
 }

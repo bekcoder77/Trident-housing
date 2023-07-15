@@ -4,14 +4,14 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <nav>
-      <div className="navbar flex gap-[180px]  justify-between px-5">
-        <div className="py-5  w-[20%]">
-          <img className="w-[250px] h-[50px]" src="./assets/logo.png" alt="" />
+      <div className="navbar flex gap-[180px]  justify-between  px-5">
+        <div className="  w-[20%]">
+          <img className="w-[100%] h-[120px] object-cover" src="https://avatars.mds.yandex.net/i?id=c8e3f60f5836d97e508946f28b8b19ce8779e656-9103996-images-thumbs&n=13" alt="" />
         </div>
-        <div className=" w-[60%] links flex gap-14 text-xl list-none cursor-pointer mt-3 py-5 px-5">
-          <li className="link   hover:text-[#1FAFAC] hover:text duration-[.3s]   hover:translate-y-[-5px] ">
+        <div className=" w-[60%] links flex gap-14 text-xl list-none cursor-pointer mt-8 py-5 px-5">
+        <Link to="/" className="link   hover:text-[#1FAFAC] hover: duration-[.3s]  hover:translate-y-[-5px]  ">
             Home
-          </li>
+          </Link>
           <li className="link   hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:translate-y-[-5px]  ">
             About us
           </li>
@@ -24,9 +24,9 @@ function Navbar() {
           <li className="link   hover:text-[#1FAFAC] hover: duration-[.3s]  hover:translate-y-[-5px]  ">
             Interior
           </li>
-          <li className="link   hover:text-[#1FAFAC] hover: duration-[.3s]  hover:translate-y-[-5px]  ">
+          <Link to="/contact" className="link   hover:text-[#1FAFAC] hover: duration-[.3s]  hover:translate-y-[-5px]  ">
             Contact
-          </li>
+          </Link>
         </div>
 
         <div className="order w-[200px] h-[160px] z-20 mr-[20px] bg-[#F4D059]  text-center  ">
