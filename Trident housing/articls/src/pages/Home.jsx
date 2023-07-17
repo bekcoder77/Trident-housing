@@ -42,7 +42,7 @@ function Home() {
   return (
     <div>
       <div className="container_div px-10">
-        <header>
+        <header className=" mt-[-40px] max-[992px]:mt-0">
           <div className="header">
             <h1 className="text-[40px] w-[37%] text-white pt-[410px] ml-16">
               A place that is more than an office – a place where you can create
@@ -69,16 +69,12 @@ function Home() {
           <ArticleList data={data} />
         </div>
 
-        <div className="others flex justify-between bg-[#00204A] relative ">
-          <div className="image w-[50%]">
-            <img className="" src="./assets/other.png" alt="" />
-            <img
-              className=" top-8 left-9 absolute"
-              src="./assets/other2.png"
-              alt=""
-            />
+       <section className="trident py-16">
+       <div className="others flex justify-between relative  bg-[#00204A] mb-16">
+          <div className="image w-[90%] h-[0px]">
+            <img className="w-[95%]" src="./assets/other1.png" alt="" />
           </div>
-          <div className="info  w-[60%] py-10 text-white">
+          <div className="info  w-[100%] py-12 mb-[65px] px-10 text-white ">
             <h1 className="text-5xl mt-6 ">
               Trident – we love <br /> inviting interiors too!
             </h1>
@@ -88,11 +84,12 @@ function Home() {
             </p>
           </div>
         </div>
-        <div className="btns flex justify-center ml-[-74px] py-0">
-          <button className="btn bg-[#F4D059] duration-[.6s] text-[20px]  rounded-sm hover:bg-[#18A7A7]  text-[white] mb-10 text-center    py-2 px-10  ml-0">
+        <div className="btns flex justify-center mt-[-82px] ">
+           <button className="btn bg-[#F4D059] duration-[.6s] text-[20px] mt-5  hover:bg-[#18A7A7]  text-[white]    rounded-md  py-[10px] px-6">
             Read More ➡️
           </button>
         </div>
+       </section>
 
         <div className="choices flex  justify-between py-20 ">
           <div className="left w-[50%]">
@@ -104,7 +101,10 @@ function Home() {
             <div className="texts flex flex-wrap gap-10">
               {infos.map((item) => {
                 return (
-                  <div className="card py-5 px-3 flex mt-10 w-[300px] min-h-[200px] gap-4">
+                  <div
+                    key={item.id}
+                    className="card py-5 px-3 flex mt-10 w-[300px] min-h-[200px] gap-4"
+                  >
                     <div className="img">
                       <img
                         className="w-[200px] object-cover"
@@ -128,8 +128,8 @@ function Home() {
           </div>
         </div>
 
-        <div className="order flex justify-between min-h-[200px] border-2 ">
-          <div className="info py-20 px-8 w-[50%]">
+        <div className="order flex justify-between min-h-[200px] border-2 rounded-md ">
+          <div className="info pt-10 px-8 w-[50%]">
             <h1 className="text-3xl text-[#00204A] mb-2">
               Order our catalogue for free
             </h1>
@@ -138,7 +138,7 @@ function Home() {
               velit veniam, animi vitae quam totam quod voluptate numquam sint
               excepturi!{" "}
             </p>
-            <button className="btn bg-[#00204A] duration-[.6s] mt-5  rounded-sm hover:bg-[#18A7A7]  text-[white]  text-center    py-3 px-10  ml-0">
+            <button className="btn bg-[#00204A] duration-[.6s] mt-6  rounded-sm hover:bg-[#18A7A7]  text-[white]  py-3 px-10  ml-0">
               Read More ➡️
             </button>
           </div>
@@ -162,35 +162,67 @@ function Home() {
           >
             <SwiperSlide>
               {" "}
-              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=0905cb9d949ef7978eb5cecb04dc6449da1acc97-9229279-images-thumbs&n=13" alt="" />{" "}
+              <img
+                className="object-contain"
+                src="https://avatars.mds.yandex.net/i?id=0905cb9d949ef7978eb5cecb04dc6449da1acc97-9229279-images-thumbs&n=13"
+                alt=""
+              />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=20a4293a945b430f0062bc8b9933e25c21ef5637-8496941-images-thumbs&n=13" alt="" />{" "}
+              <img
+                className="object-contain"
+                src="https://avatars.mds.yandex.net/i?id=20a4293a945b430f0062bc8b9933e25c21ef5637-8496941-images-thumbs&n=13"
+                alt=""
+              />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=ac3460d18c6516e1b0fe1a0450f36d205002ac6c-9242214-images-thumbs&n=13" alt="" />{" "}
+              <img
+                className="object-contain"
+                src="https://avatars.mds.yandex.net/i?id=ac3460d18c6516e1b0fe1a0450f36d205002ac6c-9242214-images-thumbs&n=13"
+                alt=""
+              />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=e7c90ddd0d17df224f15d704c9578cec5ddd216f-9104160-images-thumbs&n=13" alt="" />{" "}
+              <img
+                className="object-contain"
+                src="https://avatars.mds.yandex.net/i?id=e7c90ddd0d17df224f15d704c9578cec5ddd216f-9104160-images-thumbs&n=13"
+                alt=""
+              />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=ad8082a284704e15a3bf69b048af63509e10457b-9218991-images-thumbs&n=13" alt="" />{" "}
+              <img
+                className="object-contain"
+                src="https://avatars.mds.yandex.net/i?id=ad8082a284704e15a3bf69b048af63509e10457b-9218991-images-thumbs&n=13"
+                alt=""
+              />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=a451ad9522da8c2633bae254342788979cea19ec-6493270-images-thumbs&n=13" alt="" />{" "}
+              <img
+                className="object-contain"
+                src="https://avatars.mds.yandex.net/i?id=a451ad9522da8c2633bae254342788979cea19ec-6493270-images-thumbs&n=13"
+                alt=""
+              />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=01c6323c4c749f1994be78e7debfe798f9b758da-6254930-images-thumbs&n=13" alt="" />{" "}
+              <img
+                className="object-contain"
+                src="https://avatars.mds.yandex.net/i?id=01c6323c4c749f1994be78e7debfe798f9b758da-6254930-images-thumbs&n=13"
+                alt=""
+              />{" "}
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img  className="object-contain" src="https://avatars.mds.yandex.net/i?id=d9ab567b77a13ba1364f664495b0742fd6e4e293-9029247-images-thumbs&n=13" alt="" />{" "}
+              <img
+                className="object-contain"
+                src="https://avatars.mds.yandex.net/i?id=d9ab567b77a13ba1364f664495b0742fd6e4e293-9029247-images-thumbs&n=13"
+                alt=""
+              />{" "}
             </SwiperSlide>
           </Swiper>
         </div>

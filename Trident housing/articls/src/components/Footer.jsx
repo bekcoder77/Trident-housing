@@ -1,4 +1,5 @@
 import React from "react";
+import {BsTelegram,BsYoutube,BsInstagram} from "react-icons/bs"
 function Footer() {
   return (
     <div>
@@ -90,7 +91,12 @@ function Footer() {
             ©Agon Official 2023{" "}
             <span className="ml-2 font-medium">by Khalimov Otabek</span>{" "}
           </p>
-          <p>Privacy policy Cookies Terms of service</p>
+         <div className="icons flex items-center gap-4 text-2xl cursor-pointer">
+         <p className=" hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:translate-y-[-5px]"><BsTelegram/> </p>
+          <p className=" hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:translate-y-[-5px]"><BsYoutube/> </p>  
+                  <p className=" hover:text-[#1FAFAC] hover:text duration-[.3s]  hover:translate-y-[-5px]"><BsInstagram/> </p>
+         </div>
+
         </div>
       </footer>
     </div>
